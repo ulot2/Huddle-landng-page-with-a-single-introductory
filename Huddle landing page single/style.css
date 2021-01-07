@@ -1,0 +1,112 @@
+body {
+    font-size: 15pt;
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-size: 16px;
+}
+
+.logo {
+    width: 35%;
+    margin: 25px;
+}
+
+#center {
+    text-align: center;
+}
+
+.illustration-mockup {
+    width: 280px;
+    margin: 20px 0 38px 0;
+}
+
+h3, p {
+    color: #FFFFFF;
+    margin: 25px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background-color: #FFF;
+    width: 200px;
+    height: 37px;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 2px 2px  #46474C;
+    margin: 5px 0 80px 0;
+    transition-duration: 1s;
+}
+
+.btn:hover {
+    background-color: #9848C0;
+    color: white;
+}
+
+.fab {
+    color: white;
+    width: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-image: url("images/bg-desktop.svg");
+      background-color: hsl(257, 40%, 49%);
+      background-repeat: no-repeat;
+    }
+    
+    .logo {
+      width: 25%;
+    }
+    
+    .flex {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      margin: 20px 0 10px 40px;
+    }
+    
+    .flex-content {
+      flex: 1;
+    }
+    
+    .flex-content1 {
+      flex: 1;
+    }
+    
+    .illustration-mockup {
+      width: 500px;
+      height: 400px;
+    }
+    
+    h3 {
+      margin-top: 100px;
+    }
+    
+    p {
+      font-size: 11px;
+    }
+    
+    h3, p {
+      margin-left: 30px;
+    }
+    .btn {
+      margin-left: 30px;
+    }
+    
+    .fab {
+      float: right;
+      margin: 100px 20px 0 0;
+    }
+}
